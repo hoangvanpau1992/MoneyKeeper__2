@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xRT-av-hQI">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kYv-XQ-m51">
+            <objects>
+                <tabBarController id="xRT-av-hQI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oqJ-up-zVV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="0.19424498079999999" green="0.58142822979999997" blue="0.57897132640000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="AjT-8O-ChC" kind="relationship" relationship="viewControllers" id="zwj-OS-Jsf"/>
+                        <segue destination="HoY-pA-u5n" kind="relationship" relationship="viewControllers" id="eZX-64-2Kz"/>
+                        <segue destination="7gX-sL-oRu" kind="relationship" relationship="viewControllers" id="UCm-70-Pac"/>
+                        <segue destination="5LB-cz-LZr" kind="relationship" relationship="viewControllers" id="EtI-W5-fhS"/>
+                        <segue destination="IOx-Bg-MeO" kind="relationship" relationship="viewControllers" id="LoH-en-UZL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gpk-hC-wmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1839" y="469"/>
+        </scene>
+        <!--Tài khoản-->
+        <scene sceneID="j2d-7D-opf">
+            <objects>
+                <viewController id="HoY-pA-u5n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9yb-QA-oRg"/>
+                        <viewControllerLayoutGuide type="bottom" id="yZj-yd-Q4h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fln-yp-dai">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tài khoản" image="Taikhoan_light" selectedImage="Taikhoan_hightlight" id="azj-ND-luG"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mgy-2z-M5u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="-1012"/>
+        </scene>
+        <!--Báo cáo-->
+        <scene sceneID="pIu-bY-iyZ">
+            <objects>
+                <viewController id="5LB-cz-LZr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pcU-Hs-gBC"/>
+                        <viewControllerLayoutGuide type="bottom" id="cMX-bU-8P9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VdA-Ki-4gN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.32947127570000001" blue="0.36426697209999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Báo cáo" image="BaoCao_light" selectedImage="BaoCao_hightlight" id="mjK-II-uwk"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3z-lP-X57" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="-348"/>
+        </scene>
+        <!--Hạn định mức-->
+        <scene sceneID="A4q-eJ-rux">
+            <objects>
+                <viewController id="7gX-sL-oRu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nxQ-hA-dbg"/>
+                        <viewControllerLayoutGuide type="bottom" id="L46-QX-NMS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Skv-pu-Btf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.3921568627" green="0.8227539062" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hạn định mức" image="HanMuc_light" selectedImage="HanMuc_hightlight" id="SXH-Qc-vwL"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nY3-rT-frX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="311"/>
+        </scene>
+        <!--Tiện ích-->
+        <scene sceneID="jrG-nv-AMT">
+            <objects>
+                <viewController id="IOx-Bg-MeO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pFt-WG-KEr"/>
+                        <viewControllerLayoutGuide type="bottom" id="1LP-hJ-cMH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="58c-WP-GZj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.5380900502" blue="0.19383299349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tiện ích" image="More_light" selectedImage="More_hightlight" id="bwt-TC-S8x"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MC6-ms-sdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="997"/>
+        </scene>
+        <!--Ghi Chép-->
+        <scene sceneID="3DG-Qg-pIq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AjT-8O-ChC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ghi Chép" image="GhiChep_light" selectedImage="GhiChep_hightlight" id="owX-mH-Jeh"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z25-fI-hrN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.21568402647972107" green="0.6405566930770874" blue="0.62586206197738647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WIc-W5-S1X" kind="relationship" relationship="rootViewController" id="moZ-YQ-Qaw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KoX-bv-334" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="-1672"/>
+        </scene>
+        <!--GreenVC-->
+        <scene sceneID="GCU-n7-7U8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="GreenVC" storyboardName="Records" referencedIdentifier="GreenVC" id="5em-N1-Fry" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrX-zM-62J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="-1520"/>
+        </scene>
+        <!--ContainerVC-->
+        <scene sceneID="y9Q-9A-KlU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UIPageViewController-8bY-4b-xRD" storyboardName="Records" referencedIdentifier="ContainerVC" id="WIc-W5-S1X" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iwF-2q-MOc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52L-jR-igT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1159" y="-1540"/>
+        </scene>
+        <!--RedVC-->
+        <scene sceneID="o89-cG-m14">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="RedVC" storyboardName="Records" referencedIdentifier="RedVC" id="QNJ-sF-Rfz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTG-BR-8oe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3390" y="63"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XMH-oP-LAL">
+            <objects>
+                <viewController id="G9u-bs-eaa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FM1-b8-Ryu"/>
+                        <viewControllerLayoutGuide type="bottom" id="MLV-TW-zOD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Daz-1f-yJc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzW-tj-lTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="-1907"/>
+        </scene>
+        <!--MainTaleVC-->
+        <scene sceneID="1ac-yv-dSp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MainTaleVC" storyboardName="Records" referencedIdentifier="MainTaleVC" id="VSo-bv-jWg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIP-H8-yq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474" y="-1672"/>
+        </scene>
+        <!--YellowVC-->
+        <scene sceneID="OhC-GS-kJa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="YellowVC" storyboardName="Records" referencedIdentifier="YellowVC" id="UYS-NG-3f4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWb-1x-p1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537" y="-1594"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BaoCao_hightlight" width="25" height="25"/>
+        <image name="BaoCao_light" width="25" height="25"/>
+        <image name="GhiChep_hightlight" width="25" height="25"/>
+        <image name="GhiChep_light" width="25" height="25"/>
+        <image name="HanMuc_hightlight" width="25" height="25"/>
+        <image name="HanMuc_light" width="25" height="25"/>
+        <image name="More_hightlight" width="25" height="25"/>
+        <image name="More_light" width="25" height="25"/>
+        <image name="Taikhoan_hightlight" width="25" height="25"/>
+        <image name="Taikhoan_light" width="25" height="25"/>
+    </resources>
+</document>
