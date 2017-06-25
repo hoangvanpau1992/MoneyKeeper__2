@@ -10,8 +10,9 @@ import UIKit
 extension ContainerVC {
     func setStageKeyboard(isKeyboard: Bool) {
         UIView.animate(withDuration: 0.35, animations: {
-            self.bottomKeyboardConstraint.constant = self.isKeyboardOpen ? 50 : -self.keyboardViewContainer.bounds.height
+            self.bottomKeyboardConstraint.constant = self.isKeyboardOpen ? 0 : -self.keyboardViewContainer.bounds.height
             self.view.layoutIfNeeded()
+            self.tabBarController?.tabBar.isHidden = true
         })
     }
     
