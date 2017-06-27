@@ -12,16 +12,19 @@ extension ContainerVC {
         UIView.animate(withDuration: 0.35, animations: {
             self.bottomKeyboardConstraint.constant = self.isKeyboardOpen ? 0 : -self.keyboardViewContainer.bounds.height
             self.view.layoutIfNeeded()
-            self.tabBarController?.tabBar.isHidden = true
+            
         })
     }
     
     func closeKeyboard() {
-        isKeyboardOpen = false 
-    }
+        self.tabBarController?.tabBar.isHidden = false
+        isKeyboardOpen = false
+        }
     
     func changeKeyboard() {
+        self.tabBarController?.tabBar.isHidden = !self.tabBarController!.tabBar.isHidden
         isKeyboardOpen = !isKeyboardOpen
+
     }
     
 }
